@@ -4,6 +4,7 @@
 	<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<link rel="stylesheet" href="Style.css">
 	<link rel="stylesheet" href="NewFile.css">
 	<body>
@@ -17,16 +18,26 @@
 		<input class="w3-input w3-border" type="text" placeholder="Search.." id="searchbar">
 		<form>
 		<div class="multiselect">
-			<div class="selectBox" onclick*"showCheckboxes()">
-				<select>
+			<div class="selectBox" onclick="showCheckboxes()">
+				<select class="w3-select">
 					<option>Select filter</option>
 				</select>
 				<div class="overSelect"></div>
 			</div>
 			<div id="checkboxes">
-				<label for="one"><input type="checkbox" id="one"/></label>
-				<label for="two"><input type="checkbox" id="two"/></label>
-				<label for="three"><input type="checkbox" id="three"/></label>
+				<label for="one"><input type="checkbox" id="one"/> Iščem</label>
+				<label for="two"><input type="checkbox" id="two"/> Ponujam</label>
+				<label for="three"><input type="checkbox" id="three"/> Menjava</label>
+				<label for="four"><input type="checkbox" id="four"/> Prodaja</label>
+				<label>-Kategorije-</label>
+				<label for="five"><input type="checkbox" id="five"/> FIFA</label>
+				<label for="six"><input type="checkbox" id="six"/> NBA</label>
+				<label for="seven"><input type="checkbox" id="seven"/> Harry Potter</label>
+				<label for="eight"><input type="checkbox" id="eight"/> Pujsa Pepa</label>
+				<label for="nine"><input type="checkbox" id="nine"/> Pokémon</label>
+				<label for="ten"><input type="checkbox" id="ten"/> Digimon</label>
+				<label for="eleven"><input type="checkbox" id="eleven"/> Garfield</label>
+				<label for="twelve"><input type="checkbox" id="twelve"/> Star Wars</label>
 			</div>
 	
 		</div>
@@ -114,9 +125,9 @@
 	</div>
 	
 	
-	<footer class="w3-center w3-black w3-padding-16">
+	<footer>
 
 	</footer>
-	
+	<script src="js/javascript.js"></script>
 	</body>
 	</html>
