@@ -32,13 +32,17 @@ public class MainController {
 	public String index() {
 		return "Index";
 	}
-	@RequestMapping(value = {"/Nvidia" }, method = RequestMethod.GET)
-	public String nvidia() {
-		return "Nvidia";
+	@RequestMapping(value = {"/Sporocila" }, method = RequestMethod.GET)
+	public String sporocila() {
+		return "Sporocila";
 	}
-	@RequestMapping(value = {"/1070" }, method = RequestMethod.GET)
-	public String gtx1070() {
-		return "1070";
+	@RequestMapping(value = {"/Kategorije" }, method = RequestMethod.GET)
+	public String kategorije() {
+		return "Kategorije";
+	}
+	@RequestMapping(value = {"/mojProfil" }, method = RequestMethod.GET)
+	public String mojProfil() {
+		return "mojProfil";
 	}
 	@RequestMapping(value = {"/1080" }, method = RequestMethod.GET)
 	public String gtx1080() {
