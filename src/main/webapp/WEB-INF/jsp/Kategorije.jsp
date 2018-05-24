@@ -15,19 +15,22 @@
 		
 		<!-- Float links to the right. Hide them on small screens -->
 		<input class="w3-input w3-border" type="text" placeholder="Search.." id="searchbar">
-		<div class="div-select">
-				<select name="filter" class="w3-select" id="sel1">
-					<option>- Filter -</option>
-					<option value="fif">FIFA</option>
-					<option value="nba">NBA</option>
-					<option value="hrp">Harry Potter</option>
-					<option value="pep">Pujsa Pepa</option>
-					<option value="pkm">Pokémon</option>
-					<option value="dgm">Digimon</option>
-					<option value="grf">Garfield</option>
-					<option value="stw">Star Wars</option>
+		<form>
+		<div class="multiselect">
+			<div class="selectBox" onclick*"showCheckboxes()">
+				<select>
+					<option>Select filter</option>
 				</select>
+				<div class="overSelect"></div>
+			</div>
+			<div id="checkboxes">
+				<label for="one"><input type="checkbox" id="one"/></label>
+				<label for="two"><input type="checkbox" id="two"/></label>
+				<label for="three"><input type="checkbox" id="three"/></label>
+			</div>
+	
 		</div>
+		</form>
 		<div class="w3-right w3-hide-small" style="margin-top:-40px">
 		<a href="Kategorije" id="underline" class="w3-bar-item w3-button">Kategorije</a>
 		<a href="mojeZbirke" class="w3-bar-item w3-button">Moje zbirke</a>
