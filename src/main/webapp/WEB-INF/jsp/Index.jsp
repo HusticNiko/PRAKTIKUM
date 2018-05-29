@@ -6,6 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="Style.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<body>
 	
 	<!-- Navbar (sit on top) -->
@@ -62,63 +68,52 @@
 	<div class="w3-content w3-padding" style="max-width:1564px">
 	
 		<!-- Project Section -->
-		<div class="w3-container w3-padding-32" id="projects">
-		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-		</div>
-	
-		<div class="w3-row-padding">
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-		<img src="/w3images/house5.jpg" alt="House" style="width:100%">
-		</div>
-		</div>
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-		<img src="/w3images/house2.jpg" alt="House" style="width:100%">
-		</div>
-		</div>
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-		<img src="/w3images/house3.jpg" alt="House" style="width:100%">
-		</div>
-		</div>
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-		<img src="/w3images/house4.jpg" alt="House" style="width:100%">
-		</div>
-		</div>
-		</div>
-	
-		<div class="w3-row-padding">
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-		<img src="/w3images/house2.jpg" alt="House" style="width:99%">
-		</div>
-		</div>
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-		<img src="/w3images/house5.jpg" alt="House" style="width:99%">
-		</div>
-		</div>
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-		<img src="/w3images/house4.jpg" alt="House" style="width:99%">
-		</div>
-		</div>
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-		<img src="/w3images/house3.jpg" alt="House" style="width:99%">
-		</div>
-		</div>
-		</div>
+		<br/><br/><br/><br/>
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:500px; height: 300px">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" >
+							<div class="item active">
+								<a href=""> <img src="Slike/FIFA.jpg"
+									style="width: 500px; height:300px"></a>
+							</div>
+
+							<div class="item">
+								<a href=""> <img src="Slike/NBA.jpg"
+									style="width: 500px; height:300px"></a>
+							</div>
+
+							<div class="item">
+								<a href=""> <img src="Slike/Pokemon.jpg"
+									style="width: 500px; height:300px"></a>
+							</div>
+							<div class="item">
+								<a href=""> <img src="Slike/Star_Wars.jpg"
+									style="width: 500px; height:300px"></a>
+							</div>
+						</div>
+						<div class="well well-sm" style="height:20px; width:100px">
+						<p>Število ponudb:</p>
+						</div>
+
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel"
+							data-slide="prev"> <span
+							class="glyphicon glyphicon-chevron-left"></span> <span
+							class="sr-only">Previous</span>
+						</a> <a class="right carousel-control" href="#myCarousel"
+							data-slide="next"> <span
+							class="glyphicon glyphicon-chevron-right"></span> <span
+							class="sr-only">Next</span>
+						</a>
+					</div>
 	
 		<!-- About Section -->
 		<div class="w3-container w3-padding-32" id="about">
@@ -181,6 +176,6 @@
 	<footer class="w3-center w3-black w3-padding-16">
 	</footer>
 	
-	
+	<script src="js/javascript.js"></script>
 	</body>
 	</html>
