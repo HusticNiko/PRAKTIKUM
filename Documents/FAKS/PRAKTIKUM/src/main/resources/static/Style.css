@@ -6,23 +6,22 @@
 #searchbar{
 	max-width: 220px;
 	min-width: 220px;
-	margin-left: 650px;
+	margin-left: 590px;
 }
-.div-select{
-	margin-left:880px;
-	margin-top:-40px;
-	max-width:150px;
-	min-width:150px;
-}
+
 .multiselect{
 	width:200px;
+	position: absolute;
+	background-color: white;
+	margin-left: 820px;
+	margin-top: -39px;
+	letter-spacing: 0px !important;
 }
 .selectBox{
 	position: relative;
 }
 .selectBox select{
 	width: 100%;
-	font-weight: bold;
 }
 .overSelect{
 	position: absolute;
@@ -30,7 +29,8 @@
 }
 #checkboxes{
 	display: none;
-	border: 1px #dadada solid;	
+	border: 1px #dadada solid;
+	padding: 10px;	
 }
 #checkboxes label{
 	display: block;
