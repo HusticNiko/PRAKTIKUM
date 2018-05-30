@@ -1,196 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<title>Menjava sličic</title>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <meta charset="UTF-8">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="Style.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="javascript.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Spletna Trgovina GFX</title>
-</head>
-
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-	<div class="container-fluid">
 
-		<div class="row" id="div1">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-10" style="min-width: 1000px;">
-				<p id="naslov">Spletna Trgovina GFX</p>
+	<!-- Navbar (sit on top) -->
+	<div class="w3-top">
+		<div class="w3-bar w3-white w3-wide w3-padding w3-card">
+			<a href="Index" class="w3-bar-item w3-button"><b>Menjava
+					sličic</b></a>
+			<!-- Float links to the right. Hide them on small screens -->
+			<input class="w3-input w3-border" type="text" placeholder="Search.."
+				id="searchbar">
+	<form>
+		<div class="multiselect">
+			<div class="selectBox" onclick="showCheckboxes()">
+				<select class="w3-select">
+					<option>Select filter</option>
+				</select>
+				<div class="overSelect"></div>
 			</div>
+			<div id="checkboxes">
+				<label for="one"><input type="checkbox" id="one"/> Iščem</label>
+				<label for="two"><input type="checkbox" id="two"/> Ponujam</label>
+				<label for="three"><input type="checkbox" id="three"/> Menjava</label>
+				<label for="four"><input type="checkbox" id="four"/> Prodaja</label>
+				<label>-Kategorije-</label>
+				<label for="five"><input type="checkbox" id="five"/> FIFA</label>
+				<label for="six"><input type="checkbox" id="six"/> NBA</label>
+				<label for="seven"><input type="checkbox" id="seven"/> Harry Potter</label>
+				<label for="eight"><input type="checkbox" id="eight"/> Pujsa Pepa</label>
+				<label for="nine"><input type="checkbox" id="nine"/> Pokémon</label>
+				<label for="ten"><input type="checkbox" id="ten"/> Digimon</label>
+				<label for="eleven"><input type="checkbox" id="eleven"/> Garfield</label>
+				<label for="twelve"><input type="checkbox" id="twelve"/> Star Wars</label>
+			</div>
+	
 		</div>
-
-		<div class="row" id="div2">
-			<div class="col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10"
-				style="min-width: 1000px;">
-				<button class="btn-group"
-					onclick="window.location.href='Index'">
-					<i class="fa fa-home"></i>Domov
-				</button>
-				<div class="dropdown">
-					<button type="button" data-toggle="dropdown" class="btn-group"
-						class="btn btn-primary dropdown-toggle">
-						<i class="fa fa-list-ul"></i> Kategorije <span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu" id="d1-pos">
-						<li><a href="Nvidia">NVIDIA</a></li>
-						<li><a href="#">AMD</a></li>
-					</ul>
-				</div>
-				<button id="currentpage" class="btn-group"
-					onclick="window.location.href='Registracija'">
-					<i class="fa fa-user"></i>Registracija
-					</button>
-							<div class="dropdown">
-								<button type="button" data-toggle="dropdown"
-									class="btn btn-primary dropdown-toggle">
-									<i class="fa fa-list-ul"></i>
-									Administrator
-									<span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu" id="d2-pos">
-									<li>
-										<a href="Dodajanje_artikla">Dodajanje izdelkov</a>
-									</li>
-									<li>
-										<a href="../WebContent/XML/seznamArtiklov.xml">Seznam izdelkov</a>
-									</li>
-									<li>
-										<a href="../WebContent/XML/seznamUporabnikov.xml">Seznam uporabnikov</a>
-									</li>
-								</ul>
-							</div>
-				<button class="btn-group"
-					onclick="window.location.href='Racun'">
-					<i class="fa fa-eur"></i>Račun
-				</button>
-				<button id="b-line" class="btn-group"
-					onclick="window.location.href='O_nas'">
-					<i class="fa fa-info-circle"></i>O nas
-				</button>
+		</form>
+			<div class="w3-right w3-hide-small" style="margin-top: -40px">
+				<a href="Kategorije" class="w3-bar-item w3-button">Kategorije</a> <a
+					href="mojeZbirke" class="w3-bar-item w3-button">Moje zbirke</a> <a
+					href="Sporocila" class="w3-bar-item w3-button">Sporočila</a> <a
+					href="mojProfil" class="w3-bar-item w3-button">Moj profil</a> <a
+					href="Registracija" id="underline" class="w3-bar-item w3-button">Prijava/Registracija</a>
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-6">
-				<br />
-				<h3>Registracija</h3>
-				<div class="well" style="width: 300px;">
-					<form name="myForm" method="post" onsubmit="return Prazno()">
-						<div class="form-group">
-							<label for="ime">Ime:</label> <input type="text" name="ime"
-								onkeyup="samoCrke(this)" class="form-control" id="ime">
-						</div>
-						<div class="form-group">
-							<label for="pri">Priimek:</label> <input type="text" name="priimek"
-								onkeyup="samoCrke(this)" class="form-control" id="pri">
-						</div>
-						<div class="form-group">
-							<label for="pwd">Geslo:</label> <input type="password"
-								name="geslo" onfocusout="Prekratko()" class="form-control"
-								id="pwd">
-						</div>
-						<div id="alert-geslo"></div>
-						<div class="form-group">
-							<label for="pwd1">Ponovno geslo:</label> <input type="password"
-								name="geslo1" onfocusout="validacijaGesla()"
-								class="form-control" id="pwd2">
-						</div>
-						<div id="alert-geslo1"></div>
-						<div class="form-group">
-							<label for="eml">E-mail:</label> <input type="email" name="email"
-								class="form-control" id="eml">
-						</div>
-						<div class="form-group">
-							<label for="sel1">Država:</label> <select name="drzava"
-								class="form-control" id="sel1">
-								<option>- Izberite -</option>
-								<option value="slo">Slovenija</option>
-								<option value="au">Avstrija</option>
-								<option value="hr">Hrvaška</option>
-								<option value="de">Nemčija</option>
-							</select>
-						</div>
-						<div>
-							<label>Spol:</label><br /> <label class="radio-inline">
-								<input type="radio" name="spol" value="moški">Moški
-							</label> <label class="radio-inline"> <input type="radio"
-								name="spol" value="Ženski">Ženski
-							</label>
-						</div>
-						<br />
-						<div id="alert-prazno"></div>
-						<div>
-							<input class="btn btn-default" type="submit" value="Potrdi">
-						</div>
-					</form>
-				</div>
-				</div>
-				<div class="col-6">
-				<div class="well" style="width: 300px;">
-					<form>
-						<div class="form-group">
-							<label for="f-clanerina">Postanite član in prejmite
-								ugodnosti:</label> <select name="clanerina" class="form-control"
-								id="f-clanerina" onchange="clanerina()">
-								<option>- Izberite -</option>
-								<option value="1">1 Mesec</option>
-								<option value="6">6 Mesecev</option>
-								<option value="12">12 Mesecev</option>
-							</select><br /> <input class="btn btn-default" type="submit"
-								value="Potrdi">
-						</div>
-					</form>
-					<table class="table">
-						<tr>
-							<td>
-								<p>Popust pri izdelkih:</p>
-							</td>
-							<td class="td-group">
-								<p id="t-popust">10%</p>
-							</td>
 
-						</tr>
-						<tr>
-							<td>
-								<p>Brezplačna dostava:</p>
-							</td>
-							<td class="td-group">
-								<p id="t-dostava">Ne</p>
-							</td>
+	<!-- Header -->
+	<header class="w3-display-container w3-content w3-wide"
+		style="max-width: 1500px;" id="home">
+		<img class="w3-image" src="/w3images/architect.jpg" alt="Architecture"
+			width="1500" height="800">
+		<div class="w3-display-middle w3-margin-top w3-center"></div>
+	</header>
 
-						</tr>
-						<tr>
-							<td>
-								<p>Cena:</p>
-							</td>
-							<td class="td-group">
-								<p id="t-cena">10€</p>
-							</td>
-
-						</tr>
-					</table>
-				</div>
-				<div class="well" style="width: 300px;">
-					<label>Igrajte ugibanja števila za 3% popusta pri
-						enem izdelku!</label><br />
-					<button class="btn btn-default" onclick="igra()">Igraj</button>
-				</div>
-
-			
-
+	<!-- Page content -->
+	<div class="w3-content w3-padding" style="max-width: 600px">
+		<!-- Prijava -->
+		<div class="w3-container w3-padding-32" id="contact">
+			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Prijava</h3>
+			<form action="/action_page.php" target="_blank">
+				<input class="w3-input w3-border" type="email" placeholder="E-mail"
+					required name="Email"> <input
+					class="w3-input w3-section w3-border" type="password"
+					placeholder="Geslo" required name="Password">
+				<button class="w3-button w3-black w3-section" type="submit">
+					<i class="fa fa-paper-plane"></i> Prijavi se
+				</button>
+			</form>
 		</div>
-		</div>
-		<br /> <br />
+		<!-- Page content -->
 	</div>
+	<div class="w3-content w3-padding" style="max-width: 600px">
+		<!-- Prijava -->
+		<div class="w3-container w3-padding-32" id="contact">
+			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Registracija</h3>
+			<form action="/action_page.php" target="_blank">
+				<input class="w3-input w3-border" type="text" placeholder="Ime"
+					required name="Name"> <input
+					class="w3-input w3-section w3-border" type="text"
+					placeholder="Priimek" required name="Surname"> <input
+					class="w3-input w3-section w3-border" type="password"
+					placeholder="Geslo" required name="Password"> <input
+					class="w3-input w3-section w3-border" type="password"
+					placeholder="Ponovi geslo" required name="Password1"> <input
+					class="w3-input w3-border" type="email" placeholder="E-mail"
+					required name="Email"> <input
+					class="w3-input w3-section w3-border" type="text"
+					placeholder="Država" required name="Country"> <input
+					class="w3-input w3-section w3-border" type="text"
+					placeholder="Mesto" required name="City"> <input
+					class="w3-input w3-section w3-border" type="text"
+					placeholder="Poštna številka" required name="City">
+				<div>
+					<label>Spol:</label><br /> <label class="w3-radio"> <input
+						type="radio" name="spol" value="moški">Moški
+					</label><label class="w3-radio"><input type="radio"
+						name="spol" value="Ženski"style="margin-left:30px">Ženski
+					</label>
+				</div>
+				<br/>
+
+				<button class="w3-button w3-black w3-section" type="submit">
+					<i class="fa fa-paper-plane"></i> Registriraj se
+				</button>
+			</form>
+		</div>
+	</div>
+<script src="js/javascript.js"></script>
 </body>
 </html>
