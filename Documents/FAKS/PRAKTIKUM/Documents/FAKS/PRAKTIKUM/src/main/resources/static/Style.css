@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#underline{
+	border-bottom: 4px solid black;
+}
+#searchbar{
+	max-width: 220px;
+	min-width: 220px;
+	margin-left: 590px;
+}
+
+.multiselect{
+	width:200px;
+	position: absolute;
+	background-color: white;
+	margin-left: 820px;
+	margin-top: -39px;
+	letter-spacing: 0px !important;
+}
+.selectBox{
+	position: relative;
+}
+.selectBox select{
+	width: 100%;
+}
+.overSelect{
+	position: absolute;
+	left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkboxes{
+	display: none;
+	border: 1px #dadada solid;
+	padding: 10px;	
+}
+#checkboxes label{
+	display: block;
+}
+#checkboxes label:hover{
+	background-color: #ccc;
+}
+
