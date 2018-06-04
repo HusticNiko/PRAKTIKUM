@@ -32,10 +32,17 @@ public class MainController {
 	public String index() {
 		return "Index";
 	}
+
+	@RequestMapping(value = { "/mojeZbirke"}, method = RequestMethod.GET)
+	public String mojeZbirke() {
+		return "mojeZbirke";
+	}
+
 	@RequestMapping(value = {"/Sporocila" }, method = RequestMethod.GET)
 	public String sporocila() {
 		return "Sporocila";
 	}
+
 	@RequestMapping(value = {"/Kategorije" }, method = RequestMethod.GET)
 	public String kategorije() {
 		return "Kategorije";
@@ -83,7 +90,7 @@ public class MainController {
 				}
 			}
 		}     
-		return "Število èrk v parametru: "+steviloCrk;
+		return "ï¿½tevilo ï¿½rk v parametru: "+steviloCrk;
 	}
 
 	@RequestMapping(value = { "/kalkulator" }, method = RequestMethod.GET)
@@ -154,9 +161,9 @@ public class MainController {
 		String random = (String)session.getAttribute("stevilo");
 		int nakljucno = Integer.parseInt(random);
 		if(param>nakljucno)
-			return "Število je manjše.";
+			return "ï¿½tevilo je manjï¿½e.";
 		else if(param<nakljucno)
-			return "Število je veèje.";
+			return "ï¿½tevilo je veï¿½je.";
 		else
 			return "Bravo, uganili ste!";
 	}
@@ -165,7 +172,7 @@ public class MainController {
 	@ResponseBody
 	public String iskanje(@RequestParam(value="ime", required = true) String ime) {
 		seznam.clear();
-		Collections.addAll(seznam, "Bard Grujiè", "Luka Èetina", "David Žele", "Tilen Ravnak", "Luka Joksimoviæ", "Jože Žemva", "Jože Blaževiè", "Niko Hustiè");
+		Collections.addAll(seznam, "Bard Grujiï¿½", "Luka ï¿½etina", "David ï¿½ele", "Tilen Ravnak", "Luka Joksimoviï¿½", "Joï¿½e ï¿½emva", "Joï¿½e Blaï¿½eviï¿½", "Niko Hustiï¿½");
 		String izpis = "<ul>";
 		for (String element : seznam) {
 			if(element.toLowerCase().contains(ime.toLowerCase()))
