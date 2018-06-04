@@ -9,19 +9,16 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script
-        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <body>
 
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
     <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-        <a id="underline" href="Index"  class="w3-bar-item w3-button"><b>Menjava sličic</b></a>
+        <a href="Index"  class="w3-bar-item w3-button"><b>Menjava sličic</b></a>
         <!-- Float links to the right. Hide them on small screens -->
 
 
@@ -39,10 +36,10 @@
                     <option value="your value">Star Wars</option>
                 </select>
                 <input class="w3-input w3-border w3-bar-item" type="text" placeholder="#search.." id="searchbar" style="margin-right:5px">
-                <button id="search-btn" class="w3-bar-item w3-button"><i class="fas fa-search" style="margin-left:-3px"></i></button>
+                <button id="search-btn" class="w3-bar-item w3-button"><i  class="fas fa-search" style="margin-left:-3px"></i></button>
             </form>
             <a href="Kategorije" class="w3-bar-item w3-button">Kategorije</a>
-            <a href="mojeZbirke" class="w3-bar-item w3-button">Moje zbirke</a>
+            <a id="underline" href="mojeZbirke" class="w3-bar-item w3-button">Moje zbirke</a>
             <a href="Sporocila" class="w3-bar-item w3-button">Sporočila</a>
             <a href="mojProfil" class="w3-bar-item w3-button">Moj profil</a>
             <a href="Registracija" class="w3-bar-item w3-button">Prijava/Registracija</a>
@@ -91,7 +88,7 @@
             </div>
 
             <div class="item">
-                <a href=""> <img src="Slike/naslova_nba.jpg"
+                <a href=""> <img src="Slike/naslovna_nba.jpg"
                                  style="width: 600px; height:400px"></a>
             </div>
 
