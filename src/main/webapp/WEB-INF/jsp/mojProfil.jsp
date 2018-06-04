@@ -18,7 +18,7 @@
 
 		<div class="w3-right w3-hide-small" style="width:1200px">
 			<form>
-				<select id="select-kategorije" class="w3-select w3-bar-item" name="selekcija" style="margin-right:5px">
+				<select id="select-kategorije" class="w3-select w3-bar-item" name="selekcija">
 					<option value="dgm">-Filter-</option>
 					<option value="dgm">Digimon</option>
 					<option value="fif">FIFA</option>
@@ -30,7 +30,7 @@
 					<option value="your value">Star Wars</option>
 				</select> 
 				<input class="w3-input w3-border w3-bar-item" type="text" placeholder="#search.." id="searchbar" style="margin-right:5px">
-				<button class="w3-bar-item w3-button" style="border: 1px"><i class="fas fa-search"></i></button>
+				<button id="search-btn" class="w3-bar-item w3-button"><i class="fas fa-search" style="margin-left:-3px"></i></button>
 			</form>
 			<a href="Kategorije" class="w3-bar-item w3-button">Kategorije</a>
 			<a href="mojeZbirke" class="w3-bar-item w3-button">Moje zbirke</a>

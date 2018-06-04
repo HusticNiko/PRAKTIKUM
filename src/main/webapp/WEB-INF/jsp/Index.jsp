@@ -27,7 +27,7 @@
 
 		<div class="w3-right w3-hide-small" style="width:1200px">
 			<form>
-				<select id="select-kategorije" class="w3-select w3-bar-item" name="selekcija" style="margin-right:5px">
+				<select id="select-kategorije" class="w3-select w3-bar-item" name="selekcija">
 					<option value="dgm">-Filter-</option>
 					<option value="dgm">Digimon</option>
 					<option value="fif">FIFA</option>
@@ -39,7 +39,7 @@
 					<option value="your value">Star Wars</option>
 				</select> 
 				<input class="w3-input w3-border w3-bar-item" type="text" placeholder="#search.." id="searchbar" style="margin-right:5px">
-				<button class="w3-bar-item w3-button" style="border: 1px"><i class="fas fa-search"></i></button>
+				<button id="search-btn" class="w3-bar-item w3-button"><i class="fas fa-search" style="margin-left:-3px"></i></button>
 			</form>
 			<a href="Kategorije" class="w3-bar-item w3-button">Kategorije</a>
 			<a href="mojeZbirke" class="w3-bar-item w3-button">Moje zbirke</a>
@@ -63,7 +63,7 @@
 	
 		<!-- Project Section -->
 		<br/><br/><br/><br/>
-					<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:500px; height: 300px">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:600px; height: 400px">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -76,21 +76,21 @@
 						<div class="carousel-inner" >
 							<div class="item active">
 								<a href=""> <img src="Slike/FIFA.jpg"
-									style="width: 500px; height:300px"></a>
+									style="width: 600px; height:400px"></a>
 							</div>
 
 							<div class="item">
 								<a href=""> <img src="Slike/NBA.jpg"
-									style="width: 500px; height:300px"></a>
+									style="width: 600px; height:400px"></a>
 							</div>
 
 							<div class="item">
 								<a href=""> <img src="Slike/Pokemon.jpg"
-									style="width: 500px; height:300px"></a>
+									style="width: 600px; height:400px"></a>
 							</div>
 							<div class="item">
 								<a href=""> <img src="Slike/Star_Wars.jpg"
-									style="width: 500px; height:300px"></a>
+									style="width: 600px; height:400px"></a>
 							</div>
 						</div>
 						<div class="well well-sm" style="height:20px; width:100px">

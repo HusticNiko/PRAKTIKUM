@@ -9,6 +9,13 @@
 }
 #select-kategorije{
 	width:120px; 
-	letter-spacing:0px
+	letter-spacing:0px;
+	margin-right:5px; 
+	border: 1px solid lightgray;
+}
+#search-btn{
+	border: 1px solid lightgray;
+	border-radius: 20px; 
+	width: 40px;
 }
 
