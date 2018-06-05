@@ -32,18 +32,23 @@ public class MainController {
 	public String index() {
 		return "Index";
 	}
-	@RequestMapping(value = {"/Nvidia" }, method = RequestMethod.GET)
-	public String nvidia() {
-		return "Nvidia";
+	@RequestMapping(value = { "/mojeZbirke"}, method = RequestMethod.GET)
+	public String mojeZbirke() {
+		return "mojeZbirke";
 	}
-	@RequestMapping(value = {"/1070" }, method = RequestMethod.GET)
-	public String gtx1070() {
-		return "1070";
+	@RequestMapping(value = {"/Sporocila" }, method = RequestMethod.GET)
+	public String sporocila() {
+		return "Sporocila";
 	}
-	@RequestMapping(value = {"/1080" }, method = RequestMethod.GET)
-	public String gtx1080() {
-		return "1080";
+	@RequestMapping(value = {"/Kategorije" }, method = RequestMethod.GET)
+	public String kategorije() {
+		return "Kategorije";
 	}
+	@RequestMapping(value = {"/mojProfil" }, method = RequestMethod.GET)
+	public String mojProfil() {
+		return "mojProfil";
+	}
+	
 	@RequestMapping(value = {"/Dodajanje_artikla" }, method = RequestMethod.GET)
 	public String dodajanjeArtikla() {
 		return "Dodajanje_artikla";
