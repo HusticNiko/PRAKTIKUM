@@ -1,7 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6951483-b7e4-4d36-ad31-16c57136cdb8" name="Default" comment="" />
+    <list default="true" id="e6951483-b7e4-4d36-ad31-16c57136cdb8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/OstDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/db/OsebaDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/entities/Oseba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Calculator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/NewFile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Digimon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/FIFA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Garfield.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Harry_Potter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/NBA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Pokemon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Pujsa_Pepa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Star_wars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/naslovna_fifa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/naslovna_nba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/VnosOsebe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/Besednjak.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/artikliStyleSheet.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/seznamArtiklov.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/seznamUporabnikov.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/uporabnikiStyleSheet.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/js/Calculator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/resources/static/js/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/1070.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/1080_ti.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Dodajanje_artikla.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Kalkulator.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Kategorije.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Nvidia.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/O_nas.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Racun.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Registracija.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/SeznamOseb.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Sporocila.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/VnosOseb.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/mojProfil.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/mojeZbirke.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/Documents/FAKS/PRAKTIKUM/src/test/java/si/feri/ost/ost/demo/OstDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/OstDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/db/OsebaDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/java/si/feri/ost/ost/demo/entities/Oseba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Calculator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/NewFile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Digimon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/FIFA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Garfield.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Harry_Potter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/NBA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Pokemon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Pujsa_Pepa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Slike/Star_wars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/VnosOsebe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/Besednjak.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/artikliStyleSheet.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/seznamArtiklov.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/seznamUporabnikov.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/XML/uporabnikiStyleSheet.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/js/Calculator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/resources/static/js/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/1070.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/1080_ti.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Dodajanje_artikla.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Kalkulator.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Kategorije.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Nvidia.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/O_nas.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Racun.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Registracija.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/SeznamOseb.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/Sporocila.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/VnosOseb.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/mojProfil.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/main/webapp/WEB-INF/jsp/mojeZbirke.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/FAKS/PRAKTIKUM/src/test/java/si/feri/ost/ost/demo/OstDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Sporocila.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Sporocila.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,27 +108,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp">
+      <file leaf-file-name="Sporocila.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Sporocila.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatscript.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/chatscript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding>
-                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +139,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Dodajanje_artikla.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/chat-room/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Sporocila.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/chatscript.js" />
       </list>
     </option>
   </component>
@@ -93,6 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +212,30 @@
               <item name="PRAKTIKUM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSTDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRAKTIKUM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSTDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRAKTIKUM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSTDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRAKTIKUM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -125,6 +245,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSTDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRAKTIKUM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="chat-room" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSTDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -139,8 +268,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -150,6 +277,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikah\Documents\FAKS\PRAKTIKUM\src\main\resources\static\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,6 +314,10 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="OstDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="OSTDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="si.feri.ost.ost.demo.OstDemoApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -218,11 +354,13 @@
       <updated>1526553328847</updated>
       <workItem from="1526553331652" duration="3145000" />
       <workItem from="1526970659361" duration="4286000" />
+      <workItem from="1528110671305" duration="131000" />
+      <workItem from="1528181639563" duration="1971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7431000" />
+    <option name="totallyTimeSpent" value="9582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -245,20 +383,21 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30578512" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30578512" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292011" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13402733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13402733" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21212122" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49967468" weight="0.3292011" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +419,155 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mojeZbirke.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mojeZbirke.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="12" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mojeZbirke.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="74" column="10" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/feri/ost/ost/demo/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ost_demo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ost_demo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OstDemoApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="109" column="26" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Dodajanje_artikla.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/feri/ost/ost/demo/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Kategorije.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Registracija.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mojProfil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -331,6 +619,42 @@
             <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#3;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/chat-room/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mojeZbirke.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/chat-room/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="66" column="68" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="66" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Sporocila.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/chatscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

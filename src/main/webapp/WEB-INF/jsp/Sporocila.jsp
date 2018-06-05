@@ -10,6 +10,59 @@
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+<style>
+	body {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 13px;
+		display: flex;
+		flex-direction: column;
+		max-height: 100vh;
+		font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	}
+
+	.members-count,
+	.members-list,
+	.messages {
+		border: 1px solid #e4e4e4;
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+
+	.messages {
+		flex-shrink: 1;
+		overflow: auto;
+	}
+
+	.message {
+		padding: 5px 0;
+	}
+	.message .member {
+		display: inline-block;
+	}
+
+	.member {
+		padding-right: 10px;
+		position: relative;
+	}
+
+	.message-form {
+		display: flex;
+		flex-shrink: 0;
+	}
+	.message-form__input {
+		flex-grow: 1;
+		border: 1px solid #dfdfdf;
+		padding: 10px 15px;
+		font-size: 16px;
+	}
+	.message-form__button {
+		margin: 10px;
+	}
+</style>
+
 <body>
 	
 	<!-- Navbar (sit on top) -->
@@ -76,6 +129,17 @@
 		<i class="fa fa-paper-plane"></i> Pošlji
 		</button>
 		</div>
+
+
+		<!-- Chat -->
+		<div class="members-count">-</div>
+		<div class="members-list">-</div>
+		<div class="messages"></div>
+		<form class="message-form" onsubmit="return false;">
+			<input class="message-form__input" placeholder="Type a message.." type="text"/>
+			<input class="message-form__button" value="Send" type="submit"/>
+		</form>
+		<script src="js/chatscript.js"></script>
 
 	</div>
 	<script src="js/javascript.js"></script>
