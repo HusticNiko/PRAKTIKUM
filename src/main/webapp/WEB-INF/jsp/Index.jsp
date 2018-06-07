@@ -135,43 +135,53 @@
 	
 		<!-- About Section -->
 		<div class="w3-container w3-padding-32" id="about">
-		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-		occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-		laboris nisi ut aliquip ex ea commodo consequat.
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">O nas</h3>
+		<p>Spletna aplikacija Slicice.net je namenjena vsem navdušencem in zbirateljem
+			sličic. Na tem portalu boste lahko prebrskali zbirke raznih sličic, ter seveda
+			tudi izmenjevali sličice z ostalimi člani. Z brezplačno in enostavno registracijo
+			lahko iščete med sličicami ki so na voljo, ter tudi ponudite vaše sličice ostalim zbirateljem.
 		</p>
 		</div>
-	
+
+		<div class="w3-container w3-padding-32" id="pogoji">
+			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Pogoji uporabe</h3>
+			<p>Spletno aplikacijo lahko kot obiskovalec  ali član uporabljate samo v primeru,
+				če se strinjate s splošnimi pogoji uporabe. Ob registraciji potrjujete, da ste navedli
+				vaše resnične osebne podatke, in da ste starejši od 13 let. Prav tako soglašate, da vas
+				lahko kontaktirajo uredniki ali administratorji spletne strani na vaše kontaktne podatke,
+				ki jih vpišete ob registraciji.
+			</p>
+		</div>
+
+		<div class="w3-container w3-padding-32" id="pogoji">
+			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Kdo smo?</h3>
+
 		<div class="w3-row-padding w3-grayscale">
+
 		<div class="w3-col l3 m6 w3-margin-bottom">
-		<img src="/w3images/team2.jpg" alt="John" style="width:100%">
-		<h3>John Doe</h3>
-		<p class="w3-opacity">CEO & Founder</p>
-		<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-		<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+		<img src="slike/nika.jpg" alt="Nika" style="width:100%">
+		<h3>Nika</h3>
+		<p class="w3-opacity">CEO & Website design/functionality</p>
 		</div>
+
 		<div class="w3-col l3 m6 w3-margin-bottom">
-		<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-		<h3>Jane Doe</h3>
-		<p class="w3-opacity">Architect</p>
-		<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-		<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+		<img src="slike/rok.jpg" alt="Rok" style="width:100%">
+		<h3>Rok</h3>
+		<p class="w3-opacity">Database</p>
 		</div>
+
 		<div class="w3-col l3 m6 w3-margin-bottom">
-		<img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-		<h3>Mike Ross</h3>
-		<p class="w3-opacity">Architect</p>
-		<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-		<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+		<img src="slike/niko.jpg" alt="Niko" style="width:100%">
+		<h3>Niko</h3>
+		<p class="w3-opacity">Database</p>
 		</div>
+
 		<div class="w3-col l3 m6 w3-margin-bottom">
-		<img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-		<h3>Dan Star</h3>
-		<p class="w3-opacity">Architect</p>
-		<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-		<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+		<img src="slike/bard.jpg" alt="Bard" style="width:100%">
+		<h3>Bard</h3>
+		<p class="w3-opacity">Website fuctionality</p>
 		</div>
-		</div>
+		</div></div>
 		<!-- End page content -->
 	</div>
 	
