@@ -53,7 +53,7 @@
 	<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
 		<img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
 		<div class="w3-display-middle w3-margin-top w3-center">
-		<h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+		<h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey"></span></h1>
 		</div>
 	</header>
 	
@@ -74,7 +74,7 @@
 		
 		<input class="w3-input w3-border" type="text" placeholder="@E-mail" required name="Email">
 		<textarea class="w3-input w3-section w3-border" rows="4" cols="50" placeholder="Sporočilo.."></textarea>
-		<button id="btn-carousel" class="w3-button w3-section" type="submit">
+		<button class="w3-button w3-section btn-carousel" type="submit">
 		<i class="fa fa-paper-plane"></i> Pošlji
 		</button>
 		</div>

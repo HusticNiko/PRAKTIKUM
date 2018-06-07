@@ -86,7 +86,7 @@
 					placeholder="Novo geslo" required name="Password1"> <input
 					class="w3-input w3-section w3-border" type="password"
 					placeholder="Ponovi geslo" required name="Password2">
-					<button id="btn-carousel" class="w3-button w3-section" type="submit"> Spremeni
+					<button class="w3-button w3-section btn-carousel" type="submit"> Spremeni
 				</button>
 			</form>
 		</div>

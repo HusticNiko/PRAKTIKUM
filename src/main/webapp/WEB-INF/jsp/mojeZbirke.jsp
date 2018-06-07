@@ -107,45 +107,54 @@
 				</div>
 			</div>
 		</div>
-		<button id="myBtn">Open Modal</button>
+		<button id="myBtn" class="w3-button w3-section btn-carousel" type="button"> Dodaj sličico</button>
 		<div id="myModal" class="modal">
 		
 			  <!-- Modal content -->
 			  <div class="modal-content">
 			    <span class="close">&times;</span>
-			    <p>Some text in the Modal..</p>
+				    <div style="margin-left:20%">
+				    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dodaj sličico:</h3>
+				
+					<form  name="dodajanjeSlicic">
+					<input class="w3-input w3-section w3-border" type="text" placeholder="#sličice" style="width:200px">
+					<select id="select-kategorije" class="w3-select w3-bar-item" name="selection">
+						<option value="">-Zbirke-</option>
+						<option value="fif">FIFA</option>
+						<option value="nba">NBA</option>
+					</select><br/><br/>
+					<input type="checkbox" name="prodaja" value="prodaja" onchange="prikazCene();"> Prodajam<br/>
+					<input type="checkbox" name="izmenjava" value="menjava"> Menjam<br/>
+					<button class="w3-button w3-section btn-carousel" type="submit"> Dodaj</button>
+					
+					</form>
+					</div>
 			  </div>
 		
-		</div>
-		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dodaj sličico:</h3>
-			
-			<form  name="dodajanjeSlicic">
-				<input class="w3-input w3-section w3-border" type="text" placeholder="#sličice" style="width:200px">
-				<select id="select-kategorije" class="w3-select w3-bar-item" name="selection">
-					<option value="">-Zbirke-</option>
-					<option value="fif">FIFA</option>
-					<option value="nba">NBA</option>
-				</select><br/><br/>
-				<input type="checkbox" name="prodaja" value="prodaja" onchange="prikazCene();"> Prodajam<br/>
-				<input type="checkbox" name="izmenjava" value="menjava"> Menjam<br/>
-				<button id="btn-carousel" class="w3-button w3-section" type="submit"> Dodaj</button>
+			</div><br/>
+			<button id="myBtn2" class="w3-button w3-section btn-carousel" type="button"> Dodaj iskano sličico</button>
+			<div id="myModal2" class="modal">
+		
+			 <!-- Modal content -->
+			 <div class="modal-content">
+			    <span class="close">&times;</span>
+				    <div style="margin-left:20%">
 				
-			</form>
+				<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dodaj iskano sličico:</h3>
+					<form  name="iskaneSlicice">
+						<input class="w3-input w3-section w3-border" type="text" placeholder="#sličice" style="width:200px">
+						<select id="select-kategorije" class="w3-select w3-bar-item" name="selection">
+							<option value="">-Zbirke-</option>
+							<option value="fif">FIFA</option>
+							<option value="nba">NBA</option>
+						</select><br/><br/>
+					<button class="w3-button w3-section btn-carousel" type="button"> Dodaj</button>
+					
+				</form>
 		
-		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dodaj iskano sličico:</h3>
-			<form  name="iskaneSlicice">
-				<input class="w3-input w3-section w3-border" type="text" placeholder="#sličice" style="width:200px">
-				<select id="select-kategorije" class="w3-select w3-bar-item" name="selection">
-					<option value="">-Zbirke-</option>
-					<option value="fif">FIFA</option>
-					<option value="nba">NBA</option>
-				</select><br/><br/>
-				<button id="btn-carousel" class="w3-button w3-section" type="submit"> Dodaj</button>
-				
-			</form>
-		
-		
-		</div>
+					</div>
+				</div>
+			</div>
 		
 		<!-- Page content -->
 		</div>

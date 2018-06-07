@@ -66,7 +66,7 @@
 				<input class="w3-input w3-border" type="text" placeholder="Uporabniško ime"> <input
 					class="w3-input w3-section w3-border" type="password"
 					placeholder="Geslo" required name="Password">
-				<button id="btn-carousel" class="w3-button w3-section" type="submit">Prijavi se</button>
+				<button class="w3-button w3-section btn-carousel" type="submit">Prijavi se</button>
 			</form>
 		</div>
 		<!-- Page content -->
@@ -101,7 +101,7 @@
 				</div>
 				<br />
 
-				<button id="btn-carousel" class="w3-button w3-section" type="submit">Registriraj se
+				<button class="w3-button w3-section btn-carousel" type="submit">Registriraj se
 				</button>
 			</form>
 		</div>

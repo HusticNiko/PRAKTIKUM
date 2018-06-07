@@ -26,7 +26,7 @@
 		<div class="w3-right w3-hide-small" style="width:1400px">
 			<form name="forma-tab">
 				<div class="w3-bar-item" id="ponujamIscem">
-					<div>
+					<div style="margin-top:-7px">
 						<input type="radio" value="izmenjava" name="iskanje" checked>&nbspIzmenjava
 					</div>
 					<div>
@@ -86,7 +86,7 @@
 								<div id="div-car">
 									<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">FIFA</h3>
 									<p style="font-size: 16px">Tvoje svetovno prvenstvo se začne zdaj! Bodi tudi ti del spektakla in zberi vse FIFA sličice! </p>
-									<button class="w3-button" id="btn-carousel">Več</button>
+									<button class="w3-button btn-carousel">Več</button>
 								</div>
 							</div>
 
@@ -96,7 +96,7 @@
 								<div id="div-car">
 									<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">NBA</h3>
 									<p style="font-size: 16px">Naj se košarkarska evforija nadaljuje z novo zbirko sličic NBA! </p>
-									<button class="w3-button" id="btn-carousel">Več</button>
+									<button class="w3-button btn-carousel">Več</button>
 								</div>
 							</div>
 
@@ -106,7 +106,7 @@
 								<div id="div-car">
 									<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Pokémon</h3>
 									<p style="font-size: 16px">Zberite vse Pokémon sličice! </p>
-									<button class="w3-button" id="btn-carousel">Več</button>
+									<button class="w3-button btn-carousel">Več</button>
 								</div>
 							</div>
 							<div class="item">
@@ -115,7 +115,7 @@
 								<div id="div-car">
 									<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Star Wars</h3>
 									<p style="font-size: 16px">Uporabi silo Luke in dobi vse sličice ! </p>
-									<button class="w3-button" id="btn-carousel">Več</button>
+									<button class="w3-button btn-carousel">Več</button>
 								</div>
 							</div>
 						</div>

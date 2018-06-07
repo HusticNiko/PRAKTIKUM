@@ -28,11 +28,11 @@
     margin-top: -300px;
     width: 500px;	
 }
-#btn-carousel{
-	border: 1px solid #c3c3c3; 
-	background-color:#f6f6f6; 
-	margin-top:80px;
-	letter-spacing: 3px;
+.btn-carousel{
+	border: 1px solid #c3c3c3 !important; 
+	background-color:#f6f6f6!important; 
+	margin-top:80px !important; 
+	letter-spacing: 3px !important; 
 }
 #ponujamIscem{
 	height:30px; 
@@ -67,7 +67,8 @@
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 400px; /* Could be more or less, depending on screen size */
+    padding-top: 0px;
 }
 
 /* The Close Button */
