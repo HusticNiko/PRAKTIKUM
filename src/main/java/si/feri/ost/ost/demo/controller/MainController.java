@@ -32,10 +32,6 @@ public class MainController {
 	public String index() {
 		return "Index";
 	}
-	@RequestMapping(value = { "/mojeZbirke"}, method = RequestMethod.GET)
-	public String mojeZbirke() {
-		return "mojeZbirke";
-	}
 	@RequestMapping(value = {"/Sporocila" }, method = RequestMethod.GET)
 	public String sporocila() {
 		return "Sporocila";
@@ -48,14 +44,17 @@ public class MainController {
 	public String mojProfil() {
 		return "mojProfil";
 	}
-	
-	@RequestMapping(value = {"/Dodajanje_artikla" }, method = RequestMethod.GET)
-	public String dodajanjeArtikla() {
-		return "Dodajanje_artikla";
+	@RequestMapping(value = {"/mojeZbirke" }, method = RequestMethod.GET)
+	public String mojeZbirke() {
+		return "mojeZbirke";
 	}
-	@RequestMapping(value = {"/O_nas" }, method = RequestMethod.GET)
-	public String oNas() {
-		return "O_nas";
+	@RequestMapping(value = {"/Iskanje" }, method = RequestMethod.GET)
+	public String iskanje() {
+		return "Iskanje";
+	}
+	@RequestMapping(value = {"/Prodaja" }, method = RequestMethod.GET)
+	public String prodaja() {
+		return "Prodaja";
 	}
 	@RequestMapping(value = {"/Racun" }, method = RequestMethod.GET)
 	public String racun() {

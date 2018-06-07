@@ -1,137 +1,162 @@
 <!DOCTYPE html>
-<html>
-<title>Menjava sličic</title>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Style.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<html>
+	<title>Menjava sličic</title>
+	<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Style.css">
+	<link rel="stylesheet" href="NewFile.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<body>
+	
+	<!-- Navbar (sit on top) -->
+	<div class="w3-top">
+		<div class="w3-bar w3-white w3-wide w3-padding w3-card">
+		<a href="Index"  class="w3-bar-item w3-button"><b>Menjava sličic</b></a>
+		<!-- Float links to the right. Hide them on small screens -->
+		
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<body>
-
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-        <a href="Index"  class="w3-bar-item w3-button"><b>Menjava sličic</b></a>
-        <!-- Float links to the right. Hide them on small screens -->
-
-
-        <div class="w3-right w3-hide-small" style="width:1200px">
-            <form>
-                <select id="select-kategorije" class="w3-select w3-bar-item" name="selekcija">
-                    <option value="dgm">-Filter-</option>
-                    <option value="dgm">Digimon</option>
-                    <option value="fif">FIFA</option>
-                    <option value="grf">Garfield</option>
-                    <option value="hrp">Harry Potter</option>
-                    <option value="nba">NBA</option>
-                    <option value="pkm">Pokémon</option>
-                    <option value="pep">Pujsa Pepa</option>
-                    <option value="your value">Star Wars</option>
-                </select>
-                <input class="w3-input w3-border w3-bar-item" type="text" placeholder="#search.." id="searchbar" style="margin-right:5px">
-                <button id="search-btn" class="w3-bar-item w3-button"><i  class="fas fa-search" style="margin-left:-3px"></i></button>
-            </form>
-            <a href="Kategorije" class="w3-bar-item w3-button">Kategorije</a>
-            <a id="underline" href="mojeZbirke" class="w3-bar-item w3-button">Moje zbirke</a>
-            <a href="Sporocila" class="w3-bar-item w3-button">Sporočila</a>
-            <a href="mojProfil" class="w3-bar-item w3-button">Moj profil</a>
-            <a href="Registracija" class="w3-bar-item w3-button">Prijava/Registracija</a>
-        </div>
-    </div>
-</div>
-
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-    <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
-    <div class="w3-display-middle w3-margin-top w3-center">
-        <h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
-    </div>
-</header>
-
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
-
-    <!-- Project Section -->
-    <br/><br/><br/><br/>
-
-    <div class="multiselect">
-        <select id="izberiZbirko" class="w3-select">
-            <option value="tema">...</option>
-            <option value="fifa">FIFA</option>
-            <option value="nba">NBA</option>
-            <option value="pujsaPepa">Pujsa Pepa</option>
-            <option value="garfield">Garfield</option>
-        </select>
-    </div>
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:600px; height: 400px">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" >
-            <div class="item active">
-                <a href=""> <img src="Slike/naslovna_fifa.jpg"
-                                 style="width: 600px; height:400px"></a>
-            </div>
-
-            <div class="item">
-                <a href=""> <img src="Slike/naslovna_nba.jpg"
-                                 style="width: 600px; height:400px"></a>
-            </div>
-
-            <div class="item">
-                <a href=""> <img src="Slike/Pokemon.jpg"
-                                 style="width: 600px; height:400px"></a>
-            </div>
-            <div class="item">
-                <a href=""> <img src="Slike/Star_Wars.jpg"
-                                 style="width: 600px; height:400px"></a>
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel"
-           data-slide="prev" style="margin-left:-60px"> <span
-                class="glyphicon glyphicon-chevron-left"></span> <span
-                class="sr-only">Previous</span>
-        </a> <a class="right carousel-control" href="#myCarousel"
-                data-slide="next" style="margin-right:-600px"> <span
-            class="glyphicon glyphicon-chevron-right"></span> <span
-            class="sr-only">Next</span>
-    </a>
-    </div>
-
-    <!-- About Section -->
-    <div class="w3-container w3-padding-32" id="about">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-    </div>
-
-
-
-    <!-- End page content -->
-</div>
-
-<footer class="w3-center w3-black w3-padding-16">
-
-</footer>
-
-<script src="js/javascript.js"></script>
-</body>
-</html>
+		<div class="w3-right w3-hide-small" style="width:1400px">
+			<form name="forma-tab">
+				<div class="w3-bar-item" id="ponujamIscem">
+					<div>
+						<input type="radio" value="izmenjava" name="iskanje" checked>&nbspIzmenjava
+					</div>
+					<div>
+					<input type="radio" value="prodaja" name="iskanje">&nbspProdaja
+					</div>
+				</div>
+				<select id="select-kategorije" class="w3-select w3-bar-item" name="selekcija">
+					<option value="">-Kategorije-</option>
+					<option value="dgm">Digimon</option>
+					<option value="fif">FIFA</option>
+					<option value="grf">Garfield</option>
+					<option value="hrp">Harry Potter</option>
+					<option value="nba">NBA</option>
+					<option value="pkm">Pokémon</option>
+					<option value="pep">Pujsa Pepa</option>
+					<option value="stw">Star Wars</option>
+				</select> 
+				<input class="w3-input w3-border w3-bar-item" type="text" placeholder="#sličice.." id="searchbar" style="margin-right:5px">
+				<button id="search-btn" class="w3-bar-item w3-button" style="margin-right:5px"><i class="fas fa-search" style="margin-left:-4px"></i></button>
+			</form>
+			<a href="Kategorije" class="w3-bar-item w3-button">Kategorije</a>
+			<a href="mojeZbirke" id="underline" class="w3-bar-item w3-button">Moje zbirke</a>
+			<a href="Sporocila" class="w3-bar-item w3-button">Sporočila</a>
+			<a href="mojProfil" class="w3-bar-item w3-button">Moj profil</a>
+			<a href="Registracija" class="w3-bar-item w3-button">Prijava/Registracija</a>
+		</div>
+		</div>
+	</div>
+	
+	<!-- Header -->
+	<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+		<img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+		<div class="w3-display-middle w3-margin-top w3-center">
+		<h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+		</div>
+	</header>
+	
+	<!-- Page content -->
+	<div class="w3-content w3-padding" style="max-width:600px">
+		<!-- Sličice -->
+		<div class="w3-container w3-padding-32" >
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Moje sličice:</h3>
+		<div class="w3-row-padding">
+			<div class="w3-col l4 m4 w3-margin-bottom">
+				<select id="select-kategorije" class="w3-select w3-bar-item" name="selekcija">
+						<option value="">-Kategorije-</option>
+						<option value="fif">FIFA</option>
+						<option value="nba">NBA</option>
+				</select><br/><br/>
+				<div class="w3-display-container displayBox">
+					<h4 class="w3-border-bottom w3-border-white w3-padding-16">
+						<b>Kategorija:</b> FIFA, Izmenjava
+					</h4>
+					<p style="text-align: right; margin-top: -40px">12.6.2018</p>
+					<p>
+						<b>Iščem:</b> 5, 60, 100, 122, 142, 160, 175, 180, 183, 198, 255,
+						260, 300, 340, 343, 345, 420, 440, 457, 460, 480, 500, 510, 525,
+						540, 548, 550, 585, 587, 593, 598, 600, 618, 640, 644, 648, 650,
+						660, 666
+					</p>
+					<p>
+						<b>Ponujam:</b> 5, 60, 100, 122, 142, 160, 175, 180, 183, 198,
+						255, 260, 300, 340, 343, 345, 420, 440, 457, 460, 480, 500, 510,
+						525, 540, 548, 550, 585, 587, 593, 598, 600, 618, 640, 644, 648,
+						650, 660, 666
+					</p>
+				</div>
+								<div class="w3-display-container displayBox">
+					<h4 class="w3-border-bottom w3-border-white w3-padding-16">
+						<b>Kategorija:</b> FIFA, Prodaja
+					</h4>
+					<p style="text-align: right; margin-top: -40px">12.6.2018</p>
+					<p>
+						<b>Iščem:</b> 5, 60, 100, 122, 142, 160, 175, 180, 183, 198, 255,
+						260, 300, 340, 343, 345, 420, 440, 457, 460, 480, 500, 510, 525,
+						540, 548, 550, 585, 587, 593, 598, 600, 618, 640, 644, 648, 650,
+						660, 666
+					</p>
+					<p>
+						<b>Ponujam:</b> 5, 60, 100, 122, 142, 160, 175, 180, 183, 198,
+						255, 260, 300, 340, 343, 345, 420, 440, 457, 460, 480, 500, 510,
+						525, 540, 548, 550, 585, 587, 593, 598, 600, 618, 640, 644, 648,
+						650, 660, 666
+					</p>
+				</div>
+			</div>
+		</div>
+		<button id="myBtn">Open Modal</button>
+		<div id="myModal" class="modal">
+		
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <p>Some text in the Modal..</p>
+			  </div>
+		
+		</div>
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dodaj sličico:</h3>
+			
+			<form  name="dodajanjeSlicic">
+				<input class="w3-input w3-section w3-border" type="text" placeholder="#sličice" style="width:200px">
+				<select id="select-kategorije" class="w3-select w3-bar-item" name="selection">
+					<option value="">-Zbirke-</option>
+					<option value="fif">FIFA</option>
+					<option value="nba">NBA</option>
+				</select><br/><br/>
+				<input type="checkbox" name="prodaja" value="prodaja" onchange="prikazCene();"> Prodajam<br/>
+				<input type="checkbox" name="izmenjava" value="menjava"> Menjam<br/>
+				<button id="btn-carousel" class="w3-button w3-section" type="submit"> Dodaj</button>
+				
+			</form>
+		
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dodaj iskano sličico:</h3>
+			<form  name="iskaneSlicice">
+				<input class="w3-input w3-section w3-border" type="text" placeholder="#sličice" style="width:200px">
+				<select id="select-kategorije" class="w3-select w3-bar-item" name="selection">
+					<option value="">-Zbirke-</option>
+					<option value="fif">FIFA</option>
+					<option value="nba">NBA</option>
+				</select><br/><br/>
+				<button id="btn-carousel" class="w3-button w3-section" type="submit"> Dodaj</button>
+				
+			</form>
+		
+		
+		</div>
+		
+		<!-- Page content -->
+		</div>
+		
+		<!-- Google Map -->
+		<div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
+		
+		<!-- Footer -->
+		<footer>
+	
+		</footer>
+		<script src="js/javascript.js"></script>
+	</body>
+	</html>

@@ -1,21 +1,86 @@
 @charset "UTF-8";
 
 #underline{
-	border-bottom: 4px solid black;
+	border-bottom: 3px solid black;
 }
 #searchbar{
 	width: 120px;
 	height: 38px;
 }
 #select-kategorije{
-	width:120px; 
+	width:150px; 
 	letter-spacing:0px;
 	margin-right:5px; 
 	border: 1px solid lightgray;
 }
 #search-btn{
-	border: 1px solid lightgray;
-	border-radius: 20px; 
+	border: 1px solid #474545;
+	border-radius: 20px;
 	width: 40px;
+	background-color: #f5f5f5 !important;
+}
+#search-btn:hover{
+	background-color: #696371 !important;
+}
+#div-car{
+	float:right;
+	margin-right: 70px;
+    margin-top: -300px;
+    width: 500px;	
+}
+#btn-carousel{
+	border: 1px solid #c3c3c3; 
+	background-color:#f6f6f6; 
+	margin-top:80px;
+	letter-spacing: 3px;
+}
+#ponujamIscem{
+	height:30px; 
+	margin-top:-5px; 
+	letter-spacing:1px;
+	font-size: 12px;
+}
+.displayBox{
+	border: 1px solid lightgray;
+	width: 500px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #f5f5f5 !important;
+}
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
