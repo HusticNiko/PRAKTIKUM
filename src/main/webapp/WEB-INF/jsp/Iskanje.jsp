@@ -95,7 +95,7 @@
 					<b>uporabnik</b>
 				</h4>
 				<p>
-					<b>Kategorija:</b> FIFA, Izenjava
+					<b>Kategorija:</b> FIFA, Izmenjava
 				</p>
 				<p style="text-align: right; margin-top: -40px">12.6.2018</p>
 				<p>
